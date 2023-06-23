@@ -4,12 +4,12 @@ from Console import menu, show_ecosystems
 import Abiotic_ecoparameters
 from Classes import Ecosystem, Ecosystem_list
 from Text import *
-
 def start(ecosystem_list: Ecosystem_list):
     choice = menu(start_menu)
+    count_of_ecosystems = len(ecosystem_list.ecosystems)
     match choice:
         case 1:
-            ecosystem_list.add_ecosystem(random_ecosystem_create())
+            ecosystem_list.add_ecosystem(random_ecosystem_create(count_of_ecosystems))
             start(ecosystem_list)
         case 2:
             print(sorry_user)
@@ -30,7 +30,7 @@ def start(ecosystem_list: Ecosystem_list):
             start(ecosystem_list)
         case 5:
             pass
-def random_ecosystem_create():
+def random_ecosystem_create(count_of_ecosystems):
     sex = random.randint(1,3)
     match sex:
         case 1: ecosystem_name = random.choice(Abiotic_ecoparameters.first_names_of_place_female)\
@@ -54,6 +54,8 @@ def random_ecosystem_create():
         soil = random.choice(Abiotic_ecoparameters.soils_set[9:])
 
     ecosystem = Ecosystem(ecosystem_name, random.randint(1,10), geomorphological_level, underlying_surface, soil)
+    count_of_ecosystems+=1
+    ecosystem.uid = count_of_ecosystems
     print(you_create)
     print(ecosystem)
     return ecosystem

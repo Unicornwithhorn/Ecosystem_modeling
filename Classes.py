@@ -1,13 +1,11 @@
 class Ecosystem:
-    ecosystem_id = 1
     def __init__(self, name, river_size, geomorphological_level, underlying_surface, soil):
         self.name = name
         self.river_size = river_size
         self.geomorphological_level = geomorphological_level
         self.underlying_surface = underlying_surface
         self.soil = soil
-        self.uid = Ecosystem.ecosystem_id
-        Ecosystem.ecosystem_id+=1
+        self.uid = 1
     def __str__(self):
         return (f'{self.uid}) Урочище {self.name}. Ширина образующего водотока - {self.river_size} м. Расположение на '
                 f'катене - {self.geomorphological_level}, подстилающие породы - {self.underlying_surface}.'
@@ -33,7 +31,7 @@ class Ecosystem_list:
         self.ecosystems.pop(number - 1)
         i = 1
         for element in self.ecosystems:
-            element.uid = i
+            element.uid = str(i)
             i += 1
 
     def open_file(self):

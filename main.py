@@ -28,7 +28,7 @@
 # обновление названия растительной ассоциации
 
 
-from Controller import start
+from Controller import *
 from Classes import Ecosystem_list
 ecosystem_list = Ecosystem_list('Ecosystems_data.txt')
 ecosystem_list.open_file()
