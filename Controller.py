@@ -56,6 +56,7 @@ def random_ecosystem_create(count_of_ecosystems):
     ecosystem = Ecosystem(ecosystem_name, random.randint(1,10), geomorphological_level, underlying_surface, soil)
     count_of_ecosystems+=1
     ecosystem.uid = count_of_ecosystems
+    ecosystem.create_species_list()
     print(you_create)
     print(ecosystem)
     return ecosystem
@@ -77,7 +78,8 @@ def work_with_ecosystem(ecosystem: Ecosystem, ecosystem_list: Ecosystem_list):
             ecosystem_list.delete_ecosystem(int(ecosystem.uid))
             start(ecosystem_list)
         case 2:
-            pass
+            ecosystem.show_species()
+            start(ecosystem_list)
         case 3:
             pass
         case 4:

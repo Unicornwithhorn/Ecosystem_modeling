@@ -30,6 +30,6 @@
 
 from Controller import *
 from Classes import Ecosystem_list
-ecosystem_list = Ecosystem_list('Ecosystems_data.txt')
+ecosystem_list = Ecosystem_list('Ecosystems_data.txt', 'Vegetation.txt')
 ecosystem_list.open_file()
 start(ecosystem_list)

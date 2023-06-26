@@ -1,0 +1,110 @@
+1:	Salix phylicifolia	+		
+&sp
+1:	Cerastium sp.			
+&sol
+1:	Gymnocarpium dryopteris			
+&cop3
+1:	Brassica nigra			
+&cop3
+1:	Poa palustris			
+&cop2
+1:	Mycelis muralis			
+&sol
+1:	Dactylorhiza fuchsii			
+&sol
+1:	Thyselium palustre			
+&cop2
+1:	Populus tremula			
+&cop3
+2:	Rosa cinnamomea			
+&sol
+2:	Carex pilosa			
+&un
+2:	Trigonella caerulea			
+&cop3
+2:	Potentilla argentea			
+&cop3
+2:	Viola tricolor			
+&cop1
+2:	Valeriana officinalis			
+&sp
+2:	Rhinanthus minor			
+&sol
+2:	Heracleum sphondylium			
+&un
+2:	Artemisia vulgaris			
+&sp
+2:	Eragrostis sp.			
+&cop3
+2:	Melampyrum pratense			
+&sp
+2:	Potamogeton pectinatus			
+&cop2
+2:	Myosotis sp.			
+&cop2
+2:	Galium mollugo			
+&cop3
+2:	Elytrigia canina			
+&sp
+2:	Filipendula ulmaria			
+&cop1
+2:	Persicaria hydropiper			
+&cop2
+2:	Sagittaria sagittifolia			
+&sp
+2:	Mentha aquatica			
+&un
+2:	Amelanchier spicata			
+&cop2
+2:	Sium latifolium			
+&un
+2:	Ranunculus lingua			
+&cop1
+2:	Raphanus raphanistrum			
+&un
+3:	Fallopia dumetorum			
+&sp
+3:	Butomus umbellatus			
+&cop3
+3:	Cardamine hirsuta			
+&sol
+3:	Epilobium montanum			
+&cop2
+3:	Hylotelephium triphyllum			
+&sol
+3:	Rosa canina			
+&cop3
+3:	Stellaria alsine			
+&sp
+3:	Tripleurospermum maritimum			
+&un
+3:	Polypodium sp.			
+&cop3
+3:	Salix viminalis	+		
+&sp
+3:	Pteridium aquilinum			
+&sol
+3:	Xanthium strumarium			
+&un
+3:	Bistorta officinalis			
+&sol
+3:	Myosotis sp.			
+&sol
+3:	Populus tremula	+		
+&un
+3:	Myosotis arvensis			
+&cop2
+3:	Chamaenerion angustifolium			
+&cop3
+3:	Ranunculus cassubicus			
+&sol
+3:	Frangula alnus	+		
+&cop1
+3:	Xanthium orientale		
+&cop3
+3:	Mycelis muralis			
+&sol
+3:	Carex rostrata			
+&cop2
+3:	Galeopsis hirsuta			
+&cop2

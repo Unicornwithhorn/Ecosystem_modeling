@@ -17,4 +17,5 @@ def show_ecosystems(list_of_ecosystems: Ecosystem_list):
 
 
 
-
+# def show_vegetation()
+#
